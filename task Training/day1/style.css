@@ -1,0 +1,7 @@
+* div, div p, div#t, div#imp {
+	color:red;
+}
+
+div#imp {
+	color: green !important;
+}
