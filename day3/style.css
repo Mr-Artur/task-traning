@@ -1,12 +1,12 @@
 html {
     font-size: 20px;
-    background-color:rgb(100,100,100);
+    background-color:rgba(100,100,100,.3);
     text-align: center;
 }
 
 div:nth-child(odd) {
     color: blue;
-    font-size: calc(20px * 2);
+    font-size: 2rem;
 }
 div:nth-child(1n) {
  text-transform: uppercase;
@@ -19,6 +19,6 @@ div:nth-child(even) {
 }
 div {
     letter-spacing: 10px;
-    line-height: calc(20px * 3);
+    line-height: 3rem;
 }
 
