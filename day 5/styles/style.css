@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Mistral';
+    src: url(./fonts/Mistral.ttf);
+}
+html,body {
+    margin: 0;
+    padding: 0;
+}
+header {
+ width: 100%;
+ height: 240px;
+ position: relative;
+ overflow: hidden;
+ font-family: 'Mistral','Arial',sans-serif;
+ }
+
+.header__background {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background-image: url(../img/bg.png);
+    transform: rotate(-5deg);    
+}
+.header__block {
+    width: 350px;
+    height: 85px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, .95);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header__text {
+ width: inherit;
+ height: inherit;
+ border: 5px solid black;
+ box-sizing: border-box;
+ padding: 5px 20px;
+ font-size: 2.6rem;
+}
+
+main {padding: 10px;}
+
+.group__button {
+  border: 3px solid #f2f2f2;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 16px;
+  padding:30px 0 20px 30px;
+}
+.paint__bg {background-color:#333;}
+.group-1, .group-2, .group-3 {margin-bottom: 10px;}
+
+button {
+  margin-right: 5px;  
+  display: inline-block;
+  border-radius: 3px;
+  color: inherit;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;  
+  box-shadow: 0px 2px 4px 0px #000;
+  text-shadow: -1px -1px 0px #aaa;
+}
+.pink-btn {font-size: 22px;background-color: #e74ca7;}
+.green-btn {background-color: #9ec427;}
+.blue-btn {background-color: #579cea;}
+.red-btn {background-color: #e94747;}
+.orange-btn {background-color: #ff7325;}
+.yellow-btn {background-color: #ffbf36;}
+
+.smaller {font-size: 8px;}
