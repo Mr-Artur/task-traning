@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 6</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <heder class="header"> 
+     <form action="/" method="POST" class="form header__form">
+         <label for="form action" class="form__label">
+             <span class="--bold">Form Action</span><span class="form__label__span --gray-bg --bold">_mc4wp_action</span>
+             <p>This field will allow your visitors to choose whether they would like to
+                subscribe or unsubscribe
+             </p>
+         </label>
+          <label for="field label" class="form__label">
+             <span class="--bold">Field Label</span> <br>
+             <input name="field label" class="form__label__input --b-input" type="text" placeholder="Form Action">
+         </label>
+          <label for="choice" class="form__label">
+             <span class="--bold">Choice Type</span> <br>
+             <input class="form__label__input --sh-width --b-input --b-radius" type="number" min="0" placeholder="Radio Buttons">
+         </label>
+           <label for="choices" class="form__label">
+             <span class="--bold">Choices</span> <br>
+        <div class="form__group__input">
+          <p><input name="choices" type="radio" value="subscribe" checked> <input class="form__label__input --b-input" type="text" placeholder="subscribe">
+             <span class="form__group__span"></span>
+          </p>
+             <input name="choices" type="radio" value="unsubscribe"> <input class="form__label__input --b-input" type="text" placeholder="unsubscribe">
+             <span class="form__group__span"></span>
+        </div>
+        </label>
+          <label for="check box" class="form__label">
+              <input class="form__label__input" type="checkbox"> <span class="form__label__span">Wrap in paragraph tags?</span>
+         </label>
+          <Button type="submit" class="form__button --blue-bg --hover">Add to form</Button>
+     </form>
+ </heder>
+</body>
+</html>
