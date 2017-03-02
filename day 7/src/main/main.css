@@ -1,0 +1,9 @@
+.main {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main__hr {
+    color:#333;
+    opacity: .3;
+}
