@@ -1,0 +1,22 @@
+.columns {flex-direction: column;}
+.columns-row {display: flex;}
+.columns-block {
+ width: 100%;
+ padding: 30px; 
+ margin: 0 1px 1px 0;
+}
+.columns-left {background-color: #edbbee;}
+.columns-right {background-color: #92c4f7;}
+.columns-block-1, .columns-block-2, 
+.columns-block-3, .columns-block-4 {
+	margin: 0 1px 1px 0;
+	padding: 30px;
+	color: #fff;
+} 
+.columns-block-1 {background-color: #ab5522;}
+.columns-block-2 {background-color: #2287bb;}
+.columns-block-3 {background-color: #459967;}
+.columns-block-4 {background-color: #a4a530;}
+@media screen and (max-width:1000px) {
+	.columns-row {display: flex;flex-wrap: wrap;}
+}

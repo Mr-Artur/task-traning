@@ -6,57 +6,255 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Day 7</title>
     <link rel="stylesheet" href="./normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:200,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
     <!-- styles header -->
     <link rel="stylesheet" href="./src/header/header.css">
     <link rel="stylesheet" href="./src/header/logo/header-logo.css">
-    <link rel="stylesheet" href="./src/header/nav/header-nav.css">
-    <link rel="stylesheet" href="./src/header/sigma/header-sigma.css">
+    <link rel="stylesheet" href="./src/header/nav/header-nav.css">    
     <!-- styles main -->
     <link rel="stylesheet" href="./src/main/main.css">
-    <link rel="stylesheet" href="./src/main/bootstrap/main-bootstrap.css">
+    <link rel="stylesheet" href="./src/main/sigma/main-sigma.css">    
+    <link rel="stylesheet" href="./src/main/parallax-block/main-parallax-block.css">
+    <link rel="stylesheet" href="./src/main/icon-block/main-icon-block.css">
+    <link rel="stylesheet" href="./src/main/gallery/main-gallery.css">    
+    <link rel="stylesheet" href="./src/main/number-block/main-number-block.css">
+    <link rel="stylesheet" href="./src/main/columns/main-columns.css">    
+    <link rel="stylesheet" href="./src/main/form/main-form.css">
+    <!-- styles footer -->
+    <link rel="stylesheet" href="./src/footer/footer.css">
 </head>
 <body>
-   <header class="header">
-       <div class="header__logo">
-          <span>Get Your Designer - Made Template</span>
+    <header id="top" class="header">
+       <div class="logo">
+          <span class="logo__text">Get Your Designer - Made Template</span>
        </div>
-       <div class="header__nav">
-           <a href="" class="header__link">PHOTOGRAPHY</a>
-           <a href="" class="header__link">DESIGN</a>
-           <a href="" class="header__link">MUSIC</a>
-           <a href="" class="header__link">SMALL BIZ</a>
-           <a href="" class="header__link">HOTELS</a>
-       </div>
-       <div class="header__sigma">
+
+       <div class="nav"> 
+         <ul class="nav__navbar">
+           <li><a href="" class="nav__link">PHOTOGRAPHY</a></li>
+           <li><a href="" class="nav__link">DESIGN</a></li>
+           <li><a href="" class="nav__link">MUSIC</a></li>
+           <li><a href="" class="nav__link">SMALL BIZ</a></li>
+           <li><a href="" class="nav__link">HOTELS</a></li>
+        </ul>
+       </div>     
+   </header>
+   <main class="main main--padding-L-R-70px">  
+       <div class="sigma">
            <div class="sigma__text">
-            <h1>Sigma</h1>
+            <p class="text__caption">Sigma</p>
             <p>Image Gallery built on Bootstrap 4.0</p>   
            </div>
       
           <div class="sigma__nav">
-              <a href="" class="sigma__link">Home</a>
-              <a href="" class="sigma__link">Gallery</a>
-              <a href="" class="sigma__link">About</a>
-              <a href="" class="sigma__link">Contact</a>
-              <a href="" class="sigma__link">External</a>
+            <ul class="sigma__navbar">
+              <li><a href="" class="sigma__link">Home</a></li>
+              <li><a href="" class="sigma__link">Gallery</a></li>
+              <li><a href="" class="sigma__link">About</a></li>
+              <li><a href="" class="sigma__link">Contact</a></li>
+              <li><a href="" class="sigma__link">External</a></li>
+            </ul>
           </div>
         </div>
-   </header>
-   <main class="main">
-   <hr class="main__hr">
-   <div class="main__bootstrap">Bootstrap</div>
-   <div class="main__icon-block">Icon-Block</div>
-   <div class="main__gallery">Gallery</div>
-   <div class="main__about-us">About Us</div>
-   <div class="main__number-block">Number Block</div>
-   <div class="main__columns">Columns</div>
-   <div class="main__color-blocks">Color Blocks</div>
-   <div class="main__contact">Contact</div>   
-   </main>
-   <footer class="footer">
-       <div class="footer__form">Form</div>
-       <div class="footer__copy">Copy</div>
-   </footer>
+   <hr>   
+   <div class="parallax-block parallax-block--padding-T-B-150px">
+      <div class="parallax-block__text">
+      <span class="text__caption">BootStrap 4.0 Theme</span>
+      <p>Sigma is free Bootstrap 4 (alpha 2) theme designed for a <br>
+         metro-style image grid gallery. Download, modify and use <br>
+         this layout for your websites.
+      </p>
+      <button class="main__button button-bg-red">Our Gallery</button>
+      <button class="main__button button-bg-green">Learn More</button>
+    </div>  
+   </div>
+   <div class="icon-block">
+      <div class="icon-block__block-1">
+        <span class="icons fa fa-power-off"></span>
+        <p class="icon-block__caption icon-block__caption--clr-333">Design</p>
+        <p class="icon-block__text"> Praesent lorem dui, suscripit eu volutpat id,
+        sollicitudin ut mi. Present ornare massa vehicula. </p> 
+        </p>        
+      </div>
+      <div class="icon-block__block-2">
+        <span class="icons fa fa-bolt"></span>
+        <p class="icon-block__caption">Implement</p>
+        <p> Praesent lorem dui, suscripit eu volutpat id,
+        sollicitudin ut mi. Present ornare massa vehicula. </p> 
+        </p>
+      </div>
+      <div class="icon-block__block-3">
+        <span class="icons fa fa-thumbs-up"></span>
+        <p class="icon-block__caption">Enchance</p>
+        <p> Praesent lorem dui, suscripit eu volutpat id,
+        sollicitudin ut mi. Present ornare massa vehicula. </p> 
+        </p>
+      </div>
+      <div class="icon-block__block-4">
+        <span class="icons fa fa-bar-chart"></span>
+        <p class="icon-block__caption">Monitor</p>
+        <p> Praesent lorem dui, suscripit eu volutpat id,
+        sollicitudin ut mi. Present ornare massa vehicula. </p> 
+        </p>        
+      </div>
+   </div>
+   <div class="gallery">
+    <div class="gallery__row">
+      <img src="./src/main/gallery/img/1.jpg" alt="img 1" class="img">
+      <img src="./src/main/gallery/img/2.jpg" alt="img 2" class="img">
+      <img src="./src/main/gallery/img/3.jpg" alt="img 3" class="img">
+    </div>
+    <div class="gallery__row">
+      <img src="./src/main/gallery/img/4.jpg" alt="img 4" class="img gallery__img--size-l">
+      <div class="gallery__column">
+      <img src="./src/main/gallery/img/5.jpg" alt="img 5" class="img column__img--size-100">
+      <img src="./src/main/gallery/img/6.jpg" alt="img 6" class="img column__img--size-100">
+      </div>
+    </div>
+    <div class="gallery__row">
+      <img src="./src/main/gallery/img/7.jpg" alt="img 7" class="img gallery__img--size-m">
+      <img src="./src/main/gallery/img/8.jpg" alt="img 8" class="img gallery__img--size-m">
+    </div>
+    <div class="gallery__row">
+      <img src="./src/main/gallery/img/1.jpg" alt="img 9" class="img gallery__img--size-4-blocks">
+      <img src="./src/main/gallery/img/2.jpg" alt="img 10" class="img gallery__img--size-4-blocks">
+      <img src="./src/main/gallery/img/3.jpg" alt="img 11" class="img gallery__img--size-4-blocks">
+      <img src="./src/main/gallery/img/4.jpg" alt="img 12" class="img gallery__img--size-4-blocks">
+    </div>
+   </div>
+   <div class="parallax-block parallax-block--padding-T-B-100px">
+      <div class="parallax-block__text parallax-block__text--padding-L-R-70px">
+      <span class="text__caption">About Us</span>
+      <p>Sed elit, dictum eu turpis non, fringilla efficitur ipsum. Phasellus ultrices, nunc et tempus porta,
+         tellus purus elementum ex, volutpat lobortis orci dolor in tortor.
+      </p>
+    </div>  
+   </div>
+   <div class="number-block">
+    <div class="number-block-1">
+        <p>01 Design</p>
+        <p> Praesent lorem dui, suscripit eu volutpat id,
+        sollicitudin ut mi. Present ornare massa vehicula.</p> 
+        </p>        
+      </div>
+      <div class="number-block-2">        
+        <p>02 Coding</p>
+        <p> Praesent lorem dui, suscripit eu volutpat id,
+        sollicitudin ut mi. Present ornare massa vehicula.</p> 
+        </p>
+      </div>
+      <div class="number-block-3">        
+        <p>03 Mobile Ready</p>
+        <p> Praesent lorem dui, suscripit eu volutpat id,
+        sollicitudin ut mi. Present ornare massa vehicula.</p> 
+        </p>
+      </div>
+   </div>
+   <div class="columns">
+       <div class="columns-row">
+         <div class="columns-block columns-left">
+         <p class="main__text-block--large">Left Column</p>
+         <p>Praesent lorem dui, suscripit eu volutpat id, sollicitudin ut mi. Present ornare massa vehicula.</p>
+          <button class="main__button button-bg-blue">Read Detail</button>
+         </div>
+         <div class="columns-block columns-right">
+         <p class="main__text-block--large">Right Column</p>
+         <p>Praesent lorem dui, suscripit eu volutpat id, sollicitudin ut mi. Present ornare massa vehicula.</p>
+          <button class="main__button button-bg-red">Learn More</button>
+         </div>
+       </div>
+       <div class="columns-row">
+        <div class="columns-block-1">
+          <p class="main__text-block--large">Our Team</p>
+         <p>Praesent lorem dui, suscripit eu volutpat id, sollicitudin ut mi. Present ornare massa vehicula.</p>
+        </div>
+        <div class="columns-block-2">
+          <p class="main__text-block--large">History</p>
+         <p>Praesent lorem dui, suscripit eu volutpat id, sollicitudin ut mi. Present ornare massa vehicula.</p>
+        </div>
+        <div class="columns-block-3">
+          <p class="main__text-block--large">Management</p>
+         <p>Praesent lorem dui, suscripit eu volutpat id, sollicitudin ut mi. Present ornare massa vehicula.</p>
+        </div>
+        <div class="columns-block-4">
+          <p class="main__text-block--large">Career</p>
+         <p>Praesent lorem dui, suscripit eu volutpat id, sollicitudin ut mi. Present ornare massa vehicula.</p>
+        </div>
+       </div>
+   </div>
+   <div class="parallax-block parallax-block--padding-T-B-100px"><a name="contact"></a>
+      <div class="parallax-block__text parallax-block__text--padding-L-R-70px">
+      <span class="text__caption">Contact</span>
+      <p> You may <a href="#contact" class="main__contact__link">contact</a> templatemo if you have any question.
+          Suspendisse dolor purus, malesuada ut luctus quis, consectetur bel ante. Integer a pulvinar orci.
+      </p>
+    </div> 
+   </div>   
+    <div class="form-info">
+         <form action="/" method="POST" name="form" class="form-info__form">
+          <div class="form__row">
+            <label for="" class="form__label">
+              <p>Your Name</p>
+              <input class="form__input" type="text" placeholder="Write a full name">
+            </label>
+            <label for="" class="form__label">
+              <p>Your Email</p>
+              <input class="form__input" type="text" placeholder="Enter your email">
+            </label>
+             <label for="" class="form__label">
+              <p>Your Budget</p>
+              <select name="Budget" class="form__select">
+                <option value="500">500$</option>
+                <option value="300">300$</option>
+                <option value="700">700$</option>
+              </select>
+            </label>
+            </div>
+            <div class="form__row">
+              <label for="" class="form__label">
+              <p>Subject</p>
+              <input class="form__input" type="text" placeholder="Write a full name">
+            </label>
+            <label for="" class="form__label">
+              <p>Your Message</p>
+              <textarea class="form__textarea" name="message" cols="30" rows="6" placeholder="Write a message"></textarea>
+              <p>  
+              <input type="checkbox"><span> I'm not a robot</span> </p>
+              <button class="main__button button-bg-green" type="submit">Submit</button>
+            </label>
+            </div>
+            <div class="form__row">
+              <div class="form__adress">
+               <p class="adress__caption--l">Our Address</p>
+               <p>Suspendisse dolor purus, makesuada ut luctus quis, consectetur vel ante. Integer a pulvinar orci, 
+                  eget sagittis enim.
+               </p>
+               <div class="address__icon">
+               <div class="icon">   
+                 <span class="icon__span--size-l fa fa-envelope-o"></span><span class="icon-info">Email: info@company.com</span> 
+               </div>
+               <div class="icon"> 
+                 <span class="icon__span--size-l fa fa-phone"></span><span class="icon-info icon-info--margin-left">Phone: 070-070-0880</span>
+               </div>
+               </div>
+               </div>
+            </div>
+         </form>
+        
+    </div>
+    <hr>        
+   </main> 
+      
+    <footer class="footer">
+     <div class="footer__wrap">
+       <div class="footer__text">
+          Copyright &copy 2016 Sigma Bootstrap 4 Theme | design: <a class="footer__link" href="">temlatemo</a>
+       </div>
+       <div class="footer__scroll">
+         <a class="footer__link" href="#top">Go To Top</a>
+       </div>
+       </div>       
+   </footer>   
 </body>
 </html>

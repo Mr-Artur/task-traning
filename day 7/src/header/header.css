@@ -2,10 +2,8 @@
     flex-direction: column;
     background-color: #f0f0f0;
     color: #545454;
-    height: auto;
-    width: 100%;
 }
 
-.header, .header__logo, .header__nav, .header__sigma {
+.header, .logo, .nav {
     display: flex;
 }

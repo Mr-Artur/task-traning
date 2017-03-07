@@ -1,0 +1,29 @@
+.sigma {background-color: #fff;color: #333;flex-direction: row;}
+.sigma__text {
+    padding: 0 20px;
+    width: 50%;
+}
+.text__caption {font-size: 1.6em;}
+.sigma__nav {
+  display: flex;
+  width: 100%;
+}
+.sigma__navbar {
+  display: flex;
+  flex-wrap: wrap;
+  width: inherit;
+  justify-content: flex-end;
+  align-items: flex-end;
+  list-style: none;  
+  margin: 20px 0;
+}
+.sigma__navbar li {padding: 0 20px;}
+.sigma__link {
+    text-decoration: none;
+    color: #333;
+    opacity: .5;   
+}
+.sigma__link:hover {opacity: 1;}
+@media screen and (max-width: 740px) {
+  .sigma__navbar {flex-direction: column;}
+}
